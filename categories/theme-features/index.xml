@@ -6,7 +6,7 @@
     <description>Recent content in Theme Features on Tran-Hoang Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tranhoangcore.github.io/categories/theme-features/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tranhoangcore.github.io/categories/theme-features/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A first post</title>
       <link>https://tranhoangcore.github.io/blog/spoonful-series/01-spoonful/</link>
@@ -40,6 +40,15 @@ My content section is: blog  My layout is: single-series  Images in this page bu
 Here I am: content/blog/spoonful-series/03-spoonful/index.markdown  Here is my R Markdown source file: blog/spoonful-series/03-spoonful/index.Rmarkdown You&#39;ll want to edit this file, then re-knit to see the changes take effect in your site preview.
  To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: blog  My layout is: single-series  Images in this page bundle: /blog/spoonful-series/03-spoonful/featured-photo.</description>
+    </item>
+    
+    <item>
+      <title>Tim hieu CNN</title>
+      <link>https://tranhoangcore.github.io/blog/2021-07-21-cnn/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tranhoangcore.github.io/blog/2021-07-21-cnn/</guid>
+      <description>Tìm Hiểu Convolutional Neural Networks Cho Phân Loại Ảnh   Giới Thiệu     Convolutional Neural Networks (CNN) là một trong những mô hình deep learning phổ biến nhất và có ảnh hưởng nhiều nhất trong cộng đồng Computer Vision. CNN được dùng trong trong nhiều bài toán như nhân dạng ảnh, phân tích video, ảnh MRI, hoặc cho bài các bài của lĩnh vự xử lý ngôn ngữ tự nhiên,và hầu hết đều giải quyết tốt các bài toán này.</description>
     </item>
     
     <item>
