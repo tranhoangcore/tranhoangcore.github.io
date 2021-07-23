@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.85.0" />
+<meta name="generator" content="Hugo 0.86.0" />
 <title>Tachyons for Style | Tran-Hoang Nguyen</title>
 
 
@@ -85,21 +85,6 @@
         
         
       <a class="link f6 f5-l dib pv1 ph2 active" href="/project/" title="Project">Projects</a>
-      
-        
-        
-        
-      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
-      
-        
-        
-        
-      <a class="link f6 f5-l dib pv1 ph2 " href="/collection/" title="A collection">A collection</a>
-      
-        
-        
-        
-      <a class="link f6 f5-l dib pv1 ph2 " href="/elements/" title="Element Page">Elements</a>
       
         
         
@@ -196,7 +181,7 @@ giving you control over the theme color scheme. For an option like <code>siteBgC
 for example, you can just type one of the predefined color names from Tachyons
 and save the file. You can totally customize the theme colors within minutes of
 installing the theme.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#998;font-style:italic"># basic color options: use only color names as shown in the</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#998;font-style:italic"># basic color options: use only color names as shown in the</span>
 <span style="color:#998;font-style:italic"># &#34;Color Palette&#34; section of http://tachyons.io/docs/themes/skins/</span>
 siteBgColor = <span style="color:#d14">&#34;near-white&#34;</span>
 sidebarBgColor = <span style="color:#d14">&#34;light-gray&#34;</span>
@@ -229,11 +214,11 @@ assets, locate and open the main SCSS file (<code>/assets/main.scss</code>). Aft
 crazy looking variables you probably don&rsquo;t recognize and directly following the
 Tachyons import (<code>@import 'tachyons';</code>) you&rsquo;ll see a comment that looks just
 like this:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// uncomment the import below to activate custom-colors
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// uncomment the import below to activate custom-colors
 </span><span style="color:#998;font-style:italic">// add your own colors at the top of the imported file
 </span><span style="color:#998;font-style:italic">// @import &#39;custom-colors&#39;;
 </span></code></pre></div><p>Once you uncomment the <code>custom-colors</code> import, it will look like this:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// uncomment the import below to activate custom-colors
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// uncomment the import below to activate custom-colors
 </span><span style="color:#998;font-style:italic">// add your own colors at the top of the imported file
 </span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">@import</span> <span style="color:#d14">&#34;custom-colors&#34;</span>;
 </code></pre></div><p>Save that change, and now the color options in the <code>config.toml</code> are no longer
@@ -241,7 +226,7 @@ active – they&rsquo;ve been bypassed. To customize the colors, locate and open
 <code>custom-colors</code> file found in the theme assets (<code>/assets/custom-colors.scss</code>).
 At the top of that file, you&rsquo;ll find a whole new set of variables for all the
 same color options, but this time you get to assign your own HEX codes.</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// set your custom colors here
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scss" data-lang="scss"><span style="color:#998;font-style:italic">// set your custom colors here
 </span><span style="color:#998;font-style:italic"></span><span style="color:#008080">$siteBgColorCustom</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#099">#e3e3da</span>;
 <span style="color:#008080">$sidebarBgColorCustom</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#099">#dbdbd2</span>;
 <span style="color:#008080">$textColorCustom</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#099">#666260</span>;
