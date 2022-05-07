@@ -48,7 +48,7 @@ My content section is: blog  My layout is: single-series  Images in this page bu
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tranhoangcore.github.io/blog/2021-07-22-page/</guid>
-      <description> Chao mung he thong dinh vi toan dien nhat tu truoc den nay   markmap   #include &amp;lt;iostream&amp;gt;using namespace std; int main(){ } </description>
+      <description> Chao mung he thong dinh vi toan dien nhat tu truoc den nay   markmap   #include &amp;lt;iostream&amp;gt;using namespace std; int main(){  } </description>
     </item>
     
     <item>
@@ -111,7 +111,7 @@ For example, this panelset:
 Hello! 👋 hello
  Goodbye 💨 goodbye
   Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:
-{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
+{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}}  hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}}  goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
     </item>
     
     <item>

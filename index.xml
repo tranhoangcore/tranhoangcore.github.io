@@ -58,8 +58,8 @@ Set up RStudio Cloud     Sign up for a free RStudio Cloud account at https://rst
       
       <guid>https://tranhoangcore.github.io/collection/day01/02-postcards/</guid>
       <description>Pre-requisites     First, make sure you have the latest version of the postcards package installed from CRAN:
-install.packages(&amp;quot;postcards&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
- Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;postcards&amp;quot;) [1] ‘0.2.0’  Create GitHub repo     Online.</description>
+install.packages(&amp;#34;postcards&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;#34;postcards&amp;#34;) [1] ‘0.2.0’  Create GitHub repo     Online.</description>
     </item>
     
     <item>
@@ -80,8 +80,8 @@ My content section is: blog  My layout is: single-series  Images in this page bu
       
       <guid>https://tranhoangcore.github.io/collection/day02/02-blogdown/</guid>
       <description>Pre-requisites     First, make sure you have the latest version of the blogdown package installed from CRAN:
-install.packages(&amp;quot;blogdoown&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
- Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;blogdown&amp;quot;) [1] ‘1.0’  Create GitHub repo     Online.</description>
+install.packages(&amp;#34;blogdoown&amp;#34;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;#34;blogdown&amp;#34;) [1] ‘1.0’  Create GitHub repo     Online.</description>
     </item>
     
     <item>
@@ -124,7 +124,7 @@ My content section is: collection  My layout is: single-series   part 2!     doe
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tranhoangcore.github.io/blog/2021-07-22-page/</guid>
-      <description> Chao mung he thong dinh vi toan dien nhat tu truoc den nay   markmap   #include &amp;lt;iostream&amp;gt;using namespace std; int main(){ } </description>
+      <description> Chao mung he thong dinh vi toan dien nhat tu truoc den nay   markmap   #include &amp;lt;iostream&amp;gt;using namespace std; int main(){  } </description>
     </item>
     
     <item>
@@ -196,7 +196,7 @@ For example, this panelset:
 Hello! 👋 hello
  Goodbye 💨 goodbye
   Was created by combining this theme&amp;rsquo;s panelset and panel shortcodes:
-{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}} hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}} goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
+{{&amp;lt; panelset class=&amp;#34;greetings&amp;#34; &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Hello! :wave:&amp;#34; &amp;gt;}}  hello {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; panel name=&amp;#34;Goodbye :dash:&amp;#34; &amp;gt;}}  goodbye {{&amp;lt; /panel &amp;gt;}} {{&amp;lt; /panelset &amp;gt;}} You could also revert to HTML as well. For example, this panelset:</description>
     </item>
     
     <item>
@@ -214,7 +214,7 @@ Hello! 👋 hello
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tranhoangcore.github.io/blog/rmarkdown/</guid>
-      <description> Air quality     with(airquality, boxplot(Temp ~ Month)) with(airquality, plot(Ozone ~ Temp)) mlev &amp;lt;- levels(with(airquality, as.factor(Month))) with(airquality, plot(Ozone ~ Temp, pch = as.numeric(mlev), col = mlev)) </description>
+      <description> Air quality     with(airquality, boxplot(Temp ~ Month)) with(airquality, plot(Ozone ~ Temp)) mlev &amp;lt;- levels(with(airquality, as.factor(Month))) with(airquality, plot(Ozone ~ Temp,  pch = as.numeric(mlev),  col = mlev)) </description>
     </item>
     
     <item>

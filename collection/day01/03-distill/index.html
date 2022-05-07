@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="generator" content="Hugo 0.86.1" />
+<meta name="generator" content="Hugo 0.96.0" />
 <title>A distill site | Tran-Hoang Nguyen</title>
 
 
@@ -50,18 +50,19 @@ install.packages(&quot;distill&quot;)  Restart your R session. If you use RStudi
 <meta itemprop="wordCount" content="304">
 <meta itemprop="keywords" content="" />
   
+  
   <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
   
   
-  <link rel="stylesheet" href="/style.main.min.73e736bd4383f8090e0c7bb46d2b9fe5208816195891be73629cff4d163878c9.css" integrity="sha256-c&#43;c2vUOD&#43;AkODHu0bSuf5SCIFhlYkb5zYpz/TRY4eMk=" media="screen">
+  <link rel="stylesheet" href="/style.main.min.5477c20f89738a32763391bbc2f43dbdfc2db0e7faba550c86cac92c99efa6b6.css" integrity="sha256-VHfCD4lzijJ2M5G7wvQ9vfwtsOf6ulUMhsrJLJnvprY=" media="screen">
   
   
-  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  <script src="/panelset.min.8f4cba0107356728f266d94a12a4d18ef504eda8a9a284cda73675bae7884a68.js" type="text/javascript"></script>
   
   
-  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  <script src="/main.min.6fdfcd38ef0847459a33b6201e31466b3521724029ed45f5a6fd77ebbd5ff771.js" type="text/javascript"></script>
 </head>
 <body>
       <div class="grid-container single-series">
@@ -104,34 +105,34 @@ install.packages(&quot;distill&quot;)  Restart your R session. If you use RStudi
       <header class="post-header">
         <h4 class="breadcrumb pb5">
 
- 
- 
-    
- 
- 
-    
- 
- 
-    
- 
-
   
     
-      <a href="/collection/">Create a Collection</a> >
-    
-
-
+      
   
     
-      <a href="/collection/day01/">Day 01</a> >
-    
-
-
+      
   
+    
+      
+  
+
+    
+    
+      <a href="/collection/">Create a Collection</a>
+    
+  
+
+    
+    
+      <a href="/collection/day01/">Day 01</a>
+    
+  
+
+    
     
       A distill site
     
-
+  
 
 </h4>
 
@@ -167,7 +168,7 @@ install.packages(&quot;distill&quot;)  Restart your R session. If you use RStudi
 <li><kbd>Ctrl + Shift + F10</kbd> (Windows and Linux) or</li>
 <li><kbd>Command + Shift + F10<kbd> (Mac OS).</li>
 </ul>
-<pre><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+<pre tabindex="0"><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
 </code></pre><pre><code>packageVersion(&quot;distill&quot;)
 [1] ‘1.2’
 </code></pre>
@@ -255,9 +256,9 @@ install.packages(&quot;distill&quot;)  Restart your R session. If you use RStudi
 <p>Docs: 
 <a href="https://rstudio.github.io/distill/website.html#postcards" target="_blank" rel="noopener">https://rstudio.github.io/distill/website.html#postcards</a></p>
 <p>Now, delete your <code>about.Rmd</code> (trust me!). We&rsquo;ll create a new one with the postcards package.</p>
-<pre><code>create_article(file = &quot;about&quot;,         # future name of .Rmd file
-               template = &quot;jolla&quot;,    # name of template
-               package = &quot;postcards&quot;)
+<pre tabindex="0"><code>create_article(file = &#34;about&#34;,         # future name of .Rmd file
+               template = &#34;jolla&#34;,    # name of template
+               package = &#34;postcards&#34;)
 </code></pre><p>
 <a href="https://tranhoangcore.github.io/collection/day01/02-postcards/#templates" title="Postcards templates">Reminder: templates</a></p>
 
@@ -286,17 +287,17 @@ install.packages(&quot;distill&quot;)  Restart your R session. If you use RStudi
 <pre><code>distill::create_theme(&quot;apreshill&quot;)
 </code></pre>
 <p>Remember your <code>_site.yml</code> file? Add the theme line there:</p>
-<pre><code class="language-{.yaml}" data-lang="{.yaml}">name: &quot;Alison Hill&quot;
-title: &quot;Personal website of Dr. Alison Hill&quot;
+<pre tabindex="0"><code class="language-{.yaml}" data-lang="{.yaml}">name: &#34;Alison Hill&#34;
+title: &#34;Personal website of Dr. Alison Hill&#34;
 description: |
   This is my personal website.
-output_dir: &quot;docs&quot;
+output_dir: &#34;docs&#34;
 theme: apreshill.css
 navbar:
   right:
-    - text: &quot;Home&quot;
+    - text: &#34;Home&#34;
       href: index.html
-    - text: &quot;About&quot;
+    - text: &#34;About&#34;
       href: about.html
 output: distill::distill_article
 </code></pre>
@@ -315,13 +316,13 @@ output: distill::distill_article
 <a href="https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site" target="_blank" rel="noopener">https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site</a></li>
 </ul>
 <p>Medium:</p>
-<pre><code>&gt; use_github_pages(branch = &quot;main&quot;, path = &quot;/docs&quot;)
-✓ Setting active project to '/Users/alison/rscratch/global-distill'
-✓ Activating GitHub Pages for 'apreshill/global-distill'
+<pre tabindex="0"><code>&gt; use_github_pages(branch = &#34;main&#34;, path = &#34;/docs&#34;)
+✓ Setting active project to &#39;/Users/alison/rscratch/global-distill&#39;
+✓ Activating GitHub Pages for &#39;apreshill/global-distill&#39;
 ✓ GitHub Pages is publishing from:
-● URL: 'https://apreshill.github.io/global-distill/'
-● Branch: 'main'
-● Path: '/docs'
+● URL: &#39;https://apreshill.github.io/global-distill/&#39;
+● Branch: &#39;main&#39;
+● Path: &#39;/docs&#39;
 </code></pre>
       </section>
       <footer class="post-footer">
@@ -443,7 +444,7 @@ output: distill::distill_article
 <footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
   <nav class="db dt-l w-100">
     <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
-      &copy; 2021 Tran-Hoang Nguyen, Vietnam
+      &copy; 2022 Tran-Hoang Nguyen, Vietnam
       <span class="middot-divider"></span>
       Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
       <br />
@@ -544,6 +545,7 @@ Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xml
       
     </div>
   </nav>
+  
 </footer>
 
       </div>
