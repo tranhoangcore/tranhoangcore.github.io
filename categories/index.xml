@@ -6,40 +6,13 @@
     <description>Recent content in Categories on Tran-Hoang Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tranhoangcore.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Theme Features</title>
-      <link>https://tranhoangcore.github.io/categories/theme-features/</link>
-      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tranhoangcore.github.io/categories/theme-features/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>evergreen</title>
-      <link>https://tranhoangcore.github.io/categories/evergreen/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tranhoangcore.github.io/categories/evergreen/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tranhoangcore.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>workshop</title>
       <link>https://tranhoangcore.github.io/categories/workshop/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tranhoangcore.github.io/categories/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://tranhoangcore.github.io/categories/r/</link>
-      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tranhoangcore.github.io/categories/r/</guid>
       <description></description>
     </item>
     
@@ -58,6 +31,24 @@
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tranhoangcore.github.io/categories/package/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://tranhoangcore.github.io/categories/r/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tranhoangcore.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme Features</title>
+      <link>https://tranhoangcore.github.io/categories/theme-features/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tranhoangcore.github.io/categories/theme-features/</guid>
       <description></description>
     </item>
     
