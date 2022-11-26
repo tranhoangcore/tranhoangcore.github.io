@@ -88,10 +88,10 @@ My content section is: collection My layout is: single-series part 2! does this 
     
     <item>
       <title>Why Archlinux</title>
-      <link>https://tranhoangcore.github.io/blog/why-archlinux/</link>
+      <link>https://tranhoangcore.github.io/blog/2022-11-why-archlinux/</link>
       <pubDate>Sun, 27 Nov 2022 01:04:20 +0700</pubDate>
       
-      <guid>https://tranhoangcore.github.io/blog/why-archlinux/</guid>
+      <guid>https://tranhoangcore.github.io/blog/2022-11-why-archlinux/</guid>
       <description>Why I choose ArchLinux for daily distro.
 Rolling Update AUR Wiki Pay as you choose </description>
     </item>
