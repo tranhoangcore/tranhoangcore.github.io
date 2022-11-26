@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tran-Hoang Nguyen</title>
+    <title>Hoang T. Nguyen</title>
     <link>https://tranhoangcore.github.io/</link>
-    <description>Recent content on Tran-Hoang Nguyen</description>
+    <description>Recent content on Hoang T. Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Nov 2022 01:04:20 +0700</lastBuildDate><atom:link href="https://tranhoangcore.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -93,7 +93,7 @@ My content section is: collection My layout is: single-series part 2! does this 
       
       <guid>https://tranhoangcore.github.io/blog/why-archlinux/</guid>
       <description>Why I choose ArchLinux for daily distro.
-Rolling Update AUR Wiki </description>
+Rolling Update AUR Wiki Pay as you choose </description>
     </item>
     
     <item>
