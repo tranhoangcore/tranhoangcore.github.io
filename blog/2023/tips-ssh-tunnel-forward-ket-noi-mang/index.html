@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.111.3">
-<title>Why Archlinux | Hoang T. Nguyen</title>
+<title>Vài Tips dùng  SSH  Tunnel Forward Kết Nối Mạng | Hoang T. Nguyen</title>
 
 
 <meta property="twitter:site" content="@tranhoangcore">
@@ -28,10 +28,10 @@
 
 
 <meta property="og:site_name" content="Hoang T. Nguyen">
-<meta property="og:title" content="Why Archlinux | Hoang T. Nguyen">
+<meta property="og:title" content="Vài Tips dùng  SSH  Tunnel Forward Kết Nối Mạng | Hoang T. Nguyen">
 <meta property="og:description" content="My blog is dedicated to exploring the world of GNU/Linux and open source software, sharing tips, tricks, tutorials, and opinions with a community of like-minded enthusiasts." />
 <meta property="og:type" content="page" />
-<meta property="og:url" content="https://tranhoangcore.github.io/blog/2022-11-why-archlinux/" />
+<meta property="og:url" content="https://tranhoangcore.github.io/blog/2023/tips-ssh-tunnel-forward-ket-noi-mang/" />
 <meta property="og:locale" content="en">
 
 
@@ -43,12 +43,10 @@
         <meta name="twitter:image" content="https://tranhoangcore.github.io/blog/sidebar-listing.jpg" >
     
     
-  <meta itemprop="name" content="Why Archlinux">
-<meta itemprop="description" content="
-BTW, I use Arch! Why I choose ArchLinux for daily distro.
-Rolling Update: Rolling Update AUR Wiki Pay as you choose "><meta itemprop="datePublished" content="2022-11-27T01:04:20+07:00" />
-<meta itemprop="dateModified" content="2022-11-27T01:04:20+07:00" />
-<meta itemprop="wordCount" content="21">
+  <meta itemprop="name" content="Vài Tips dùng  SSH  Tunnel Forward Kết Nối Mạng">
+<meta itemprop="description" content="Bài toán: Hệ thống server của bạn được nằm tách biệt với các mạng khác nhau. Bạn cần thể hiện app của bạn cho khách hàng nhưng hiện tại không public được thông tin server. Bạn cần truy xuất bằng giao diện với một số service hoặc sử dụng tool bên thứ ba kết nối vào service đang chạy trên một server nội bộ. Chuẩn bị: Lưu ý SSH đã được cài đặt trên máy tính của bạn."><meta itemprop="datePublished" content="2023-04-04T21:47:31+07:00" />
+<meta itemprop="dateModified" content="2023-04-04T21:47:31+07:00" />
+<meta itemprop="wordCount" content="270">
 <meta itemprop="keywords" content="" />
   
   
@@ -98,46 +96,78 @@ Rolling Update: Rolling Update AUR Wiki Pay as you choose "><meta itemprop="date
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Why Archlinux</h1>
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Vài Tips dùng  SSH  Tunnel Forward Kết Nối Mạng</h1>
         
         <p class="f6 measure lh-copy mv1">By Hoang T. Nguyen</p>
-        <p class="f7 db mv0 ttu">November 27, 2022</p>
+        <p class="f7 db mv0 ttu">April 4, 2023</p>
 
       
 
       </header>
       <section class="post-body pt5 pb4">
-        <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Archlinux-logo-standard-version.png/1920px-Archlinux-logo-standard-version.png" alt="ArchLinux - Wiki" title=" ArchLinux Logo - Wikipedia"></p>
-<blockquote>
-<p>BTW, I use Arch!
-Why I choose ArchLinux for daily distro.</p>
-</blockquote>
+        <p><img src="https://i.imgur.com/licssiM.png" alt="SSH Tunnel" title="https://ssh.com"></p>
 
 
 
 
-<h2 id="rolling-update">Rolling Update:
-  <a href="#rolling-update"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 0h24v24H0z" fill="currentColor"></path>
-      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
-    </svg></a>
-</h2>
+<h1 id="bài-toán">Bài toán:
+  <a href="#b%c3%a0i-to%c3%a1n"></a>
+</h1>
 <ul>
-<li>Rolling Update</li>
-<li>AUR</li>
-<li>Wiki</li>
-<li>Pay as you choose</li>
+<li>Hệ thống server của bạn được nằm tách biệt với các mạng khác nhau.</li>
+<li>Bạn cần thể hiện app của bạn cho khách hàng nhưng hiện tại không public được thông tin server.</li>
+<li>Bạn cần truy xuất bằng giao diện với một số service hoặc sử dụng tool bên thứ ba kết nối vào service đang chạy trên một server nội bộ.</li>
 </ul>
+
+
+
+
+<h1 id="chuẩn-bị">Chuẩn bị:
+  <a href="#chu%e1%ba%a9n-b%e1%bb%8b"></a>
+</h1>
+<ul>
+<li>
+<p>Lưu ý SSH đã được cài đặt trên máy tính của bạn.</p>
+</li>
+<li>
+<p>Cho phép tính năng ssh tunnel trên các server.</p>
+<p>Kiểm tra các thiết lập này đã có hiệu lực chưa:
+<code>/etc/ssh/sshd_config</code></p>
+<pre tabindex="0"><code>AllowTcpForwarding yes
+GatewayPorts yes
+</code></pre><p>Nếu có thay đổi hãy restart lại service: <code>sudo service sshd restart</code></p>
+</li>
+</ul>
+
+
+
+
+<h1 id="tiến-hành">Tiến hành:
+  <a href="#ti%e1%ba%bfn-h%c3%a0nh"></a>
+</h1>
+<ul>
+<li>Hiện tại bạn có một con server với IP là <code>10.0.0.1</code> - trên này đang chạy một <code>app</code> với port là <code>3000</code>, bạn connect với <code>app</code> thông qua port <code>4000</code> trên chính máy tính của bạn. Ví dụ là <code>http://localhost:4000</code>.
+Ta chạy câu lệnh sau:</li>
+</ul>
+<pre tabindex="0"><code>ssh -N -R 3000:localhost:4000 root@10.0.0.1
+</code></pre><p>Và giờ bạn có thể truy cập được <code>app</code> thông qua <code>http://localhost:4000</code> rồi đó</p>
+<ul>
+<li>Nhiều hệ thống sẽ không truy cập được trực tiếp giữa máy tính của ta với trực tiếp server đang chạy, thay vào đó chúng ta thường sử dụng <em>Proxy</em> hoặc <em>Bastion</em> làm trung gian.
+Ví dụ bạn có một con server IP 10.0.0.1 đang chạy Mysql với port <code>3306</code>, và một con proxy <code>10.0.0.100</code>:
+Ta chạy lệnh:</li>
+</ul>
+<pre tabindex="0"><code>ssh -J root@10.0.0.100  -L 3306:localhost:3306 root@10.0.0.1
+</code></pre><p>Ngoài ra các bạn có thể tùy biến lại để phục vụ nhu cầu hoặc tạo thêm nhiều thứ thú với hơn với SSH Tunnel.</p>
 
         
         <details closed class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
     <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">November 27, 2022</dd>
+    <dd class="fw5 ml0">April 4, 2023</dd>
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">1 minute read, 21 words</dd>
+    <dd class="fw5 ml0">2 minute read, 270 words</dd>
   </dl>
   
   

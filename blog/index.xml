@@ -6,16 +6,14 @@
     <description>Recent content in tranhoangcore&#39;s Blog on Hoang T. Nguyen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Nov 2022 01:04:20 +0700</lastBuildDate><atom:link href="https://tranhoangcore.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 21:47:31 +0700</lastBuildDate><atom:link href="https://tranhoangcore.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why Archlinux</title>
-      <link>https://tranhoangcore.github.io/blog/2022-11-why-archlinux/</link>
-      <pubDate>Sun, 27 Nov 2022 01:04:20 +0700</pubDate>
+      <title>Vài Tips dùng  SSH  Tunnel Forward Kết Nối Mạng</title>
+      <link>https://tranhoangcore.github.io/blog/2023/tips-ssh-tunnel-forward-ket-noi-mang/</link>
+      <pubDate>Tue, 04 Apr 2023 21:47:31 +0700</pubDate>
       
-      <guid>https://tranhoangcore.github.io/blog/2022-11-why-archlinux/</guid>
-      <description>
-BTW, I use Arch! Why I choose ArchLinux for daily distro.
-Rolling Update: Rolling Update AUR Wiki Pay as you choose </description>
+      <guid>https://tranhoangcore.github.io/blog/2023/tips-ssh-tunnel-forward-ket-noi-mang/</guid>
+      <description>Bài toán: Hệ thống server của bạn được nằm tách biệt với các mạng khác nhau. Bạn cần thể hiện app của bạn cho khách hàng nhưng hiện tại không public được thông tin server. Bạn cần truy xuất bằng giao diện với một số service hoặc sử dụng tool bên thứ ba kết nối vào service đang chạy trên một server nội bộ. Chuẩn bị: Lưu ý SSH đã được cài đặt trên máy tính của bạn.</description>
     </item>
     
   </channel>
